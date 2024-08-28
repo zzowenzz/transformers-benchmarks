@@ -17,11 +17,11 @@ Measure the TFLOPS for various micro-benchmarkings. Results are from running [mi
 | Memory (GB) / Bandwidth (GB/s)         | 80 / 2039 | 48 / 768 | 32 / 900  | 24 / 1008 | 24 / 1008 | 16 / 448 | 
 | Approximate Price $                    |  16,000   |  4,000   |   3,500   |  1,500   | 2,200 |  
 | Matrix Multiplication FP32 / FP16      | 116 / 230 | 60 / 95  |  14 / 95  | 42 / 81  | 86 / 172 | 10 / 62 | 
-| Vector Multiplication                  |   0.202   |  0.082   |   0.098   |  0.107   |  0.117 |
-| Bert Layer Forward / Forward+Backward  | 110 / 136 | 60 / 70  |  53 / 64  | 56 / 62  | 99 / 109 |
-| GPT-2 Layer Forward / Forward+Backward |  45 / 53  | 35 / 38  |  32 / 36  | 37 / 39  | 48 / 54 |
-| T5 Encoder Forward / Forward+Backward  |  44 / 56  | 34 / 41  |  31 / 38  | 36 / 41  | 47 / 55 |
-| T5 Decoder Forward / Forward+Backward  |  38 / 47  | 28 / 34  |  26 / 32  | 30 / 36  | 38 / 45 |
+| Vector Multiplication                  |   0.202   |  0.082   |   0.098   |  0.107   |  0.117 | 0.045 | 
+| Bert Layer Forward / Forward+Backward  | 110 / 136 | 60 / 70  |  53 / 64  | 56 / 62  | 99 / 109 | 37 / 43| 
+| GPT-2 Layer Forward / Forward+Backward |  45 / 53  | 35 / 38  |  32 / 36  | 37 / 39  | 48 / 54 | 19 / 20 | 
+| T5 Encoder Forward / Forward+Backward  |  44 / 56  | 34 / 41  |  31 / 38  | 36 / 41  | 47 / 55 | 16 / 19 | 
+| T5 Decoder Forward / Forward+Backward  |  38 / 47  | 28 / 34  |  26 / 32  | 30 / 36  | 38 / 45 | 13 / 13 | 
 
 
 
