@@ -15,7 +15,7 @@ Measure the TFLOPS for various micro-benchmarkings. Results are from running [mi
 | -------------------------------------- | :-------: | :------: | :-------: | :------: | :---: |:---: | 
 | Theory TF32(FP32) / FP16               | 156 / 312 | 75 / 150 | 16 / 125  | 80 / 160 | | 11.2 / 22.3 | 
 | Memory (GB) / Bandwidth (GB/s)         | 80 / 2039 | 48 / 768 | 32 / 900  | 24 / 1008 | 24 / 1008 | 16 / 448 | 
-| Approximate Price $                    |  2.49/h   |  7,000 (1.12/h)   |   3,500 (0.28/h)   |   0.63/h   | 3000 | |  
+| Approximate Price $                    |  25000 (2.49/h)   |  7,000 (1.12/h)   |   3,500 (0.28/h)   |   (0.63/h)   | 3000 (1.02/h) | |  
 | Matrix Multiplication FP32 / FP16      | 116 / 230 | 60 / 95  |  14 / 95  | 42 / 81  | 86 / 172 | 10 / 62 | 
 | Vector Multiplication                  |   0.202   |  0.082   |   0.098   |  0.107   |  0.117 | 0.045 | 
 | Bert Layer Forward / Forward+Backward  | 110 / 136 | 60 / 70  |  53 / 64  | 56 / 62  | 99 / 109 | 37 / 43| 
